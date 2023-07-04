@@ -2,7 +2,7 @@ pipeline {
     agent any 
     environment {
         PATH = "/usr/bin:$PATH"
-        tag = "1.0"
+        tag = "2.0"
         dockerHubUser="akshay451995"
         containerName="insure-me"
         httpPort="8081"
